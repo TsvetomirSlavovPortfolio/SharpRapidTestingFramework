@@ -1,6 +1,6 @@
-﻿using RapidSharpTestTools;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Threading;
+using RapidSharpTestTools.Web;
 
 namespace WebTestScada2
 {

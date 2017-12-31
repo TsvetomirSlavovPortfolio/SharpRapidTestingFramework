@@ -74,11 +74,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Browser.cs" />
-    <Compile Include="PageObjectPattern.cs" />
+    <Compile Include="Class\Browser.cs" />
+    <Compile Include="Class\PageObjectPattern.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ScreenShotter.cs" />
-    <Compile Include="Web.cs" />
+    <Compile Include="Class\ScreenShotter.cs" />
+    <Compile Include="Class\Web.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

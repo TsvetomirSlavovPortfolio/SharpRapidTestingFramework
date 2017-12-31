@@ -14,3 +14,6 @@ Get-ChildItem -Path $from -Recurse -Exclude $exclude |
    Join-Path $to $_.FullName.Substring($from.length)
   }
  } -Force -Exclude $exclude
+
+
+Compress-Archive -Path $to -CompressionLevel Fastest -DestinationPath 'C:\Users\bezrukov\Desktop'

@@ -1,6 +1,6 @@
 ﻿using OpenQA.Selenium.Chrome;
 
-namespace RapidSharpTestTools
+namespace RapidSharpTestTools.Web
 {
     public class Web
     {

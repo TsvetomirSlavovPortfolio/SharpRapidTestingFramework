@@ -4,7 +4,7 @@ using System.Drawing;
 using System.IO;
 
 
-namespace RapidSharpTestTools
+namespace RapidSharpTestTools.Web
 {
     public class ScreenShotter
     {

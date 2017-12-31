@@ -4,7 +4,7 @@ using OpenQA.Selenium.Interactions;
 using System.Collections.Generic;
 using System.Drawing;
 
-namespace RapidSharpTestTools
+namespace RapidSharpTestTools.Web
 {
     public class Browser
     {
