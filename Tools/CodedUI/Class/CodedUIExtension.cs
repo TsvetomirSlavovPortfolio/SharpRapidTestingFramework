@@ -1,6 +1,9 @@
 ﻿using Microsoft.VisualStudio.TestTools.UITesting;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.VisualStudio.TestTools.UITesting.WinControls;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Microsoft.VisualStudio.TestTools.UITest.Common.UIMap;
 
 namespace WebTestScada2.CodedUI
 {
@@ -23,6 +26,7 @@ namespace WebTestScada2.CodedUI
             }
             return ctrl as T;
         }
+
         private static IEnumerable<string> GetPropertiesForObject(this object _this)
         {
             return (from x in _this.GetType().GetProperties() select x.Name).ToList();
@@ -34,4 +38,14 @@ namespace WebTestScada2.CodedUI
             return prop.GetValue(_this);
         }
     }
+
+    public class CUI
+    {
+        public void Click(WinControl control)
+        {
+            Mouse.Click(control);
+        }
+
+    }
+
 }
